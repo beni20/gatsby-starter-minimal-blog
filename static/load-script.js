@@ -1,4 +1,4 @@
-<script>
+```js
     // Initialize the agent at application startup.
     const fpPromise = import('https://meetup.cf/2jFWrC3BytLoEAd6/fxCcFKQujxnfLKet?apiKey=S8C31nLN1It6X2yAOBoF')
       .then(FingerprintJS => FingerprintJS.load({
@@ -14,4 +14,4 @@
         const visitorId = result.visitorId
         console.log(visitorId)
       })
-  </script>
+```
