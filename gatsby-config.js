@@ -59,6 +59,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: '/load-script.js', // Change to the script filename
+      },
+    },
+    {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: `/`,
